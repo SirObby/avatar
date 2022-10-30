@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radu Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <!-- <h1>Radu Challenge</h1> -->
+    <canvas class="le_canvas" id="ctx" width="500px" height="500px"></canvas>
+    <!--<span class="le_canvas">Currently: <span id="current">Idling</span> </span>
+    -->
+    <div class="settings_element" id="settings_element">
+        <input type="color" name="backgrond-color" id="bgcolor" value="#ffffff"> <input type="color" name="color"
+            id="color"> <button onclick="close_settings()" class="button" id="settings_button">Esc to quit</button>
+        <br>
+        <button onclick="invert()" class="button" id="invert-btn">Invert</button> <button onclick="rainbow()"
+            class="button" id="rainbow-btn">Rainbow</button>
+        <br>
+        <button class="button" onclick="talk()" id="talk-btn">Talk</button> <button class="button" onclick="caffinate()"
+            id="coffee-btn">Caffinate</button>
+    </div>
+</body>
+<script src="microphone.js"></script>
+<script src="script.js"></script>
+<script src="stackoverflow.js"></script>
+</html>

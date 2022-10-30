@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.le_canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+}
+* {
+    border: 0px;
+    background-color:transparent;
+}
+.button {
+    color: #fff;
+    background-color: gray;
+    /* Create round edges */
+    border-radius: 10px;
+}
+.settings_element {
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    margin-top: -250px;
+    margin-left: -250px;
+
+    visibility: hidden;
+    z-index: 2;
+}
